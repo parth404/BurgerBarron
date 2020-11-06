@@ -1,0 +1,101 @@
+.Burger {
+    width: 100%;
+    margin: 10px auto;
+    height: 250px;
+    overflow: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+@media (min-width: 320px) and (min-height: 568px) {
+    .Burger {
+        width:60vw;
+        height: 33vh;
+    }
+}
+
+@media (min-width: 360px) and (min-height: 640px) {
+    .Burger {
+        width: 70vw;
+        height: 36vh;
+    }
+}
+
+@media (min-width: 375px) and (min-height: 667px) {
+    .Burger {
+        width: 70vw;
+        height: 37vh;
+    }
+}
+
+@media (min-width: 375px) and (min-height: 812px) {
+    .Burger {
+        width: 360px;
+        height: 42vh;
+    }
+}
+
+@media (min-width: 411px) and (min-height: 823px) {
+    .Burger {
+        width: 360px;
+        height: 42vh;
+    }
+}
+
+@media (min-width: 414px) and (min-height: 736px) {
+    .Burger {
+        width: 80vw;
+        height: 40vh;
+    }
+}
+
+@media (min-width: 500px) and (min-height: 400px) {
+    .Burger {
+        width: 360px;
+        height: 420px;
+    }
+}
+
+@media (min-width: 500px) and (min-height: 401px) {
+    .Burger {
+        width: 360px;
+        height: 420px;
+    }
+}
+
+@media (min-width: 1280px) and (min-height: 800px) {
+    .Burger {
+        width: 32vw;
+        height: 41vh;
+    }
+}
+
+@media (min-width: 1280px) and (min-height: 950px) {
+    .Burger {
+        width: 35vw;
+        height: 45vh;
+    }
+}
+
+
+@media (min-width: 1336px) and (min-height: 768px) {
+    .Burger {
+        width: 32vw;
+        height: 40vh;
+    }
+}
+
+@media (min-width: 1440px) and (min-height: 900px) {
+    .Burger {
+        width: 34vw;
+        height: 44vh;
+    }
+}
+
+@media (min-width: 1920px) and (min-height: 1080px) {
+    .Burger {
+        width: 34vw;
+        height: 47vh;
+    }
+}

@@ -1,0 +1,45 @@
+.SideDrawer {
+    position: fixed;
+    width: 280px;
+    max-width: 70%;
+    margin: 0 auto;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 200;
+    background-color: #6f5052;
+    background-image: url('../../../assets/images/p90ZUF.jpg');
+    border-right: 3px solid #b9a3a5;
+    background-repeat: repeat;
+    background-size: contain;
+    padding: 32px 16px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-out;
+    animation-iteration-count: 10;
+}
+
+.Logo {
+    height: 11%;
+    margin-bottom: 7vh;
+}
+
+.Logo b {
+    font-size: 6vh;
+    position: fixed;
+    left: 10px;
+}
+
+
+@media (min-width: 500px) {
+    .SideDrawer {
+        display: none;
+    }
+}
+
+.Open {
+    transform: translateX(0);
+}
+.Close {
+    transform: translateX(-100%);
+}
+

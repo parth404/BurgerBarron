@@ -1,0 +1,78 @@
+@import url(//fonts.googleapis.com/css?family=Vibur);
+
+.Logo {
+  text-align: center;
+  width: 40%;
+  height: 7vh;
+  padding: 8px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  user-select: none;
+}
+
+.Logo b{
+  font-family:"Vibur";
+  font-weight: 400;
+  font-size: 5vh;
+  color: white;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4128, 0 0 0.5em #f15900, 0 0 0.1em #ff4800, 0 10px 3px #000;
+}
+
+.Logo b span{
+  animation: blink linear 2s;
+  animation-iteration-count: 8;
+}
+.Logo b span:nth-of-type(2){
+  animation: blink linear 3s;
+  animation-iteration-count: 10;
+}
+
+.Logo b span:nth-last-of-type(1){
+  animation: blink linear nfinite 4s;
+  animation-iteration-count: 5;
+}
+
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79%{
+     color: #333;
+  }
+  80% {
+    
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #333;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: #333;
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
+
+@media (max-width: 500px) {
+  .Logo b{
+    font-size: 5vh;
+  }
+}
